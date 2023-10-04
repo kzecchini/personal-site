@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Kevin Zecchini</title>
+    <link>https://kzecchini.me/blog/</link>
+    <description>Recent content in Blogs on Kevin Zecchini</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 21 Oct 2019 13:12:56 -0400</lastBuildDate><atom:link href="https://kzecchini.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We&#39;ll Do it Live!</title>
+      <link>https://kzecchini.me/blog/do_it_live/</link>
+      <pubDate>Mon, 21 Oct 2019 13:12:56 -0400</pubDate>
+      
+      <guid>https://kzecchini.me/blog/do_it_live/</guid>
+      <description>We&amp;rsquo;ll Do it Live: Updating Machine Learning Models on Flask/uWSGI with No Downtime
+At WW, I implemented a lightfm recommender model for their in-app social media platform. Every night the model was retrained for each global region, and the live service was updated without any downtime. The live model service was written in Flask and was deployed via k8s. I wrote a medium blog post about this for WW, which is linked at the top of the page.</description>
+    </item>
+    
+  </channel>
+</rss>

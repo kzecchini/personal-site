@@ -1,3 +1,96 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = 'https://kzecchini.me'
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Kevin Zecchini"
+title = "Kevin Zecchini"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "UA-72299773-1"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Kevin Zecchini"
+intro = "Data Science | ML | AI"
+description = """I build world class data products \n 
+Formerly Director of Data Science at [Roc360](https://roc360.com/)"""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal site"
+keywords = "portfolio,resume,developer,data science,machine learning,data,ai"
+
+## Social Accounts
+[params.social]
+github = "kzecchini"
+# instagram = "<username>"
+# xing = "<username>"
+linkedin = "kzecchini"
+# twitter = "<username>"
+wellfound = "kzecchini"
+linq = "Yq2C6eNL0xZBNUt7"
+# facebook = "<username>"
+# google = "<username>"
+# googlescholar = "<account_id>"
+# orcid = "0123-4567-8901-2345"
+# stackoverflow = "<username>"
+# lastfm = "<username>"
+# goodreads = "<username>"
+# gitlab = "<username>"
+# bitbucket = "<username>"
+# fivehundredpx = "<username>"
+# flickr = "<username>"
+# foursquare = "<username>"
+# hackernews = "<username>"
+# kickstarter = "<username>"
+# patreon = "<username>"
+# pintrest = "<username>"
+# steam = "<username>"
+# reddit = "<username>"
+# snapchat = "<username>"
+# youtube = "<channelid>"
+# keybase = "<username>"
+# twitch = "<username>"
+# soundcloud = "<username>"
+# tumblr = "<username>"
+# strava = "<username>"
+# skype = "<username>"
+# telegram = "<username>"
+# whatsapp = "<username>"
+# buymeacoffee = "<username>"
+# kaggle = "<username>"
+# holopin = "<username>"
+email = "kevin@kzecchini.me"
+# pgp = "<key_fingerprint>"
+
+## Extras
+[params.extra]
+copyright = "© 2023. Kevin Zecchini. [Some Rights Reserved](https://creativecommons.org/licenses/by-nc-nd/4.0/)."
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
