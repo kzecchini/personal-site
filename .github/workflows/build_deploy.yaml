@@ -48,3 +48,4 @@ jobs:
       - name: upload to gcloud
         run: |
           cd public && gsutil cp -r ./ gs://${{ secrets.GCS_BUCKET }}
+          gsutil -m setmeta -r -h "Cache-control:no-cache, max-age=0" gs://${{ secrets.GCS_BUCKET }}
